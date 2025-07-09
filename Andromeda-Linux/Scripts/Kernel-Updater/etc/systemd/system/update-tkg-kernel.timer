@@ -1,0 +1,9 @@
+[Unit]
+Description=Andromeda Linux TKG Kernel Updater Timer
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target
